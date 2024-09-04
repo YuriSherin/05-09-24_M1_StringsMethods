@@ -1,5 +1,5 @@
 my_string = input('Введите произвольную строку: ')
-print('Количество символов в строке: ', int(len(my_string)))
+print('Количество символов в строке: ', len(my_string))
 print(my_string.upper())
 print(my_string.lower())
 my_string = my_string.replace(' ', '')
